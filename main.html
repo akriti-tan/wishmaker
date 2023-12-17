@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishmaker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <form class="px-4 my-20 max-w-3xl mx-auto space-y-6">
+        <div class="text-center">
+            <h1 class=" text-3xl underline font-semibold">BIRTHDAY WISH GENERATER</h1>
+
+        </div>
+        <div class="text-xl">
+            <label for="first name">First Name</label><br>
+            <input
+                class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-teal-200"
+                type="text" name="firstname" id="firstname" />
+        </div>
+        <div class="text-xl">
+            <label for="last name">Last Name</label><br>
+            <input
+                class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-teal-200"
+                type="text" name="lastname" id="lastname" />
+        </div>
+        <div  class="text-xl">
+            <label for="emailaddress">Email address</label><br>
+            <input
+                class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-teal-200"
+                type="text" name="emailaddress" id="emailaddress" />
+        </div>
+        <div  class="text-xl">
+            <label for="message">Write your birthdaywish</label><br>
+            <textarea
+                class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-teal-200"
+                type="text" name="message" id="message" id="message" name="message" rows="4" cols="50"></textarea>
+
+        </div>
+        <div class=" text-center ">
+            <button
+                class="duration-75 transform hover:scale-125 transition bg-teal-500 px-3 py-2 rounded-3xl text-white hover:text-stone-200 hover:bg-slate-500">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
